@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = nov27_task
-build_property.ProjectDir = C:\Users\Birinci novbe\source\repos\pushable\nov27_task\
+build_property.ProjectDir = C:\Users\royal\Desktop\Ado-DB\nov27_task\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

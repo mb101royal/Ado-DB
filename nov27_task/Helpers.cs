@@ -5,7 +5,7 @@ namespace nov27_task.Helpers
 {
     public class SqlHelper
     {
-        private const string _connectionString = @"Server= DESKTOP-OG8IRC4\SQLEXPRESS;Database = Users_and_Blogs;Trusted_Connection=true";
+        private const string _connectionString = @"Server= ASPIRE-3\SQLEXPRESS;Database = Users_and_Blogs;Trusted_Connection=true";
         public static DataTable GetDatas(string query)
         {
             using SqlConnection connection = new SqlConnection(_connectionString);

@@ -3,7 +3,8 @@
 --	Id INT IDENTITY PRIMARY KEY,
 --	[Name] NVARCHAR(35),
 --	Surname NVARCHAR(40),
---	[Password] NVARCHAR(36)
+--	[Password] NVARCHAR(36),
+--	Username NVARCHAR(40)
 --)
 --CREATE TABLE Blogs
 --(
@@ -13,12 +14,12 @@
 --	UserId INT REFERENCES Users(Id)
 --)
 
---INSERT INTO Users ([Name], Surname, [Password]) VALUES
---('Alice', 'Smith', 'a1b2c3d4'),
---('Bob', 'Jones', 'b5c6d7e8'),
---('Charlie', 'Brown', 'c9d0e1f2'),
---('David', 'Green', 'd3e4f5g6'),
---('Eve', 'White', 'e7f8g9h0');
+--INSERT INTO Users ([Name], Surname, [Password], Username) VALUES
+--('Alice', 'Smith', 'a1b2c3d4', 'Username1'),
+--('Bob', 'Jones', 'b5c6d7e8', 'Username2'),
+--('Charlie', 'Brown', 'c9d0e1f2', 'Username3'),
+--('David', 'Green', 'd3e4f5g6', 'Username4'),
+--('Eve', 'White', 'e7f8g9h0', 'Username5');
 
 --INSERT INTO Blogs (Title, [Description], UserId) VALUES
 --('My first blog', 'This is my first blog post. I hope you enjoy it.', 1),

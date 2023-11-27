@@ -9,6 +9,9 @@ namespace nov27_task
     {
         static void Main(string[] args)
         {
+			UserService userService = new UserService();
+
+            userService.Run();
 
         }
     }
